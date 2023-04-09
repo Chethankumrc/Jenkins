@@ -1,0 +1,21 @@
+pipeline{
+    agent any
+    stages{
+        stage ('build'){
+            steps{
+
+                echo "My name is chethan"
+
+
+            }
+        }
+
+            stage ('test') {
+                steps{
+
+                    echo "Im 30 year old"
+
+                }
+            }
+    }
+}
